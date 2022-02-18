@@ -1,5 +1,5 @@
 {
-  "name": "node-hw-02",
+  "name": "nodejs-hw-REST_API",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -28,13 +28,13 @@
   "main": ".eslintrc.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexeyZyukov/node-hw-02.git"
+    "url": "git+https://github.com/AlexeyZyukov/nodejs-hw-REST_API.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexeyZyukov/node-hw-02/issues"
+    "url": "https://github.com/AlexeyZyukov/nodejs-hw-REST_API/issues"
   },
-  "homepage": "https://github.com/AlexeyZyukov/node-hw-02#readme"
+  "homepage": "https://github.com/AlexeyZyukov/nodejs-hw-REST_API#readme"
 }
