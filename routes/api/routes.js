@@ -7,7 +7,7 @@ const {
   addContact,
   updateContact,
 } = require('../../models/contacts')
-const schemaCreateContact = require('../../routes/api/contactsValidators')
+const { schemaCreateContact } = require('./contactsValidators')
 const { validateBody } = require('../../middlewares/validation')
 
 router.get('/', async (req, res, next) => {

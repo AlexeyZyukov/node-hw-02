@@ -16,13 +16,15 @@ const schemaCreateContact = Joi.object({
             'string.empty': 'Поле e-mail должно быть заполнено',
         }),
     phone: Joi.string()
-        .pattern(/^\[+]?([0-9]{2})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/)
+        .pattern(/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/)
         .required()
         .messages({
             'any.required': '',
             'string.empty': 'Поле phone должно быть заполнено',
         })
 })
-//e-mail pattern: https://html.spec.whatwg.org/multipage/input.html#valid-e-mail-address
 
 module.exports = { schemaCreateContact }
+
+//e-mail pattern: https://html.spec.whatwg.org/multipage/input.html#valid-e-mail-address
+//phone pattern: https://www.javascript-coder.com/form-validation/javascript-form-validation-phone-number/
