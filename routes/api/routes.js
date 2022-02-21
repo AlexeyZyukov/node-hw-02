@@ -7,7 +7,7 @@ const {
   addContact,
   updateContact,
 } = require('../../models/contacts')
-const { schemaCreateContact } = require('./contactsValidators')
+const { schemaCreateContact, schemaPutContact } = require('./contactsValidators')
 const { validateBody } = require('../../middlewares/validation')
 
 router.get('/', async (req, res, next) => {
@@ -46,13 +46,14 @@ router.delete('/:contactId', async (req, res, next) => {
   // })
 })
 
-router.put('/:contactId', async (req, res, next) => {
-  const contact = await updateContact(req.params.contactId)
+router.put('/:contactId', validateBody(schemaPutContact), async (req, res, next) => {
+  const contact = await updateContact(req.params.contactId, req.body)
   if (contact) {
     res.json({ status: 'success', code: 200, payload: { contact } })
   }
   return res
     .status(404)
+  // .json({ status: 'error', code: 404, message: 'Not Found' })
 })
 
 module.exports = router
