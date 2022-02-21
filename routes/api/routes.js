@@ -22,10 +22,10 @@ router.get('/:contactId', async (req, res, next) => {
   }
   return res
     .status(404)
-  // .json({
-  //   status: 'error', code: 404,
-  //   message: 'Not found'
-  // })
+    .json({
+      status: 'error', code: 404,
+      message: 'Not found'
+    })
 })
 
 router.post('/', validateBody(schemaCreateContact), async (req, res, next) => {
@@ -40,10 +40,10 @@ router.delete('/:contactId', async (req, res, next) => {
   }
   return res
     .status(404)
-  // .json({
-  //   status: 'error', code: 404,
-  //   message: 'Not found'
-  // })
+    .json({
+      status: 'error', code: 404,
+      message: 'Not found'
+    })
 })
 
 router.put('/:contactId', validateBody(schemaPutContact), async (req, res, next) => {
@@ -53,7 +53,7 @@ router.put('/:contactId', validateBody(schemaPutContact), async (req, res, next)
   }
   return res
     .status(404)
-  // .json({ status: 'error', code: 404, message: 'Not Found' })
+    .json({ status: 'error', code: 404, message: 'Not Found' })
 })
 
 module.exports = router
