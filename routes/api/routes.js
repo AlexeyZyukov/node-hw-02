@@ -1,14 +1,14 @@
 const express = require('express')
 const router = express.Router()
+const { listContacts } = require('../../models/contacts/listContacts')
 const {
-  listContacts,
   getContactById,
   removeContact,
   addContact,
   updateContact,
-} = require('../../models/contacts')
-const { schemaCreateContact, schemaPutContact } = require('./contactsValidators')
-const { validateBody } = require('../../middlewares/validation')
+} = require('../../models/contacts/index')
+const { schemaCreateContact, schemaPutContact } = require('../../schemas/contactsValidators')
+const { validateBody } = require('../../middlewares/validateBody')
 
 router.get('/', async (req, res, next) => {
   const contacts = await listContacts()
