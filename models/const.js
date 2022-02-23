@@ -1,3 +1,3 @@
-const contactsDB = 'contacts.json'
+const contactsDB = '../db/contacts.json'
 
 module.exports = contactsDB

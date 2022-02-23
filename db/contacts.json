@@ -42,14 +42,8 @@
     "phone": "(233) 738-2360"
   },
   {
-    "id": "f73a1c17-fc3b-4417-a9b7-0420e1b7fd90",
-    "name": "Alec Howard",
-    "email": "Donec.elementum@scelerisque.net",
-    "phone": "748 206-2688"
-  },
-  {
     "id": "29639df2-038f-47a2-ab6b-eaa67769a8c3",
-    "name": "Aleks Hord",
+    "name": "Aleks Nord",
     "email": "Donec.elementums@celerisque.net",
     "phone": "(748) 206-2688"
   },
@@ -63,6 +57,12 @@
     "id": "510b330a-c57e-4f4a-ae4d-c8ebdc45396d",
     "name": "Arnold Shwarts",
     "email": "AS.element@celeris.org",
-    "phone": "38030589725"
+    "phone": "38130589725"
+  },
+  {
+    "id": "686b867f-408e-46f1-951d-4fb78c87235a",
+    "name": "Gerd Shwarts",
+    "email": "Gelement@celerist.org",
+    "phone": "259 1593214"
   }
 ]
