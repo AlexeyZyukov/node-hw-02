@@ -1,68 +1,62 @@
 [
   {
-    "id": "1",
     "name": "Allen Raymond",
     "email": "nulla.ante@vestibul.co.uk",
-    "phone": "(992) 914-3792"
+    "phone": "(992) 914-3792",
+    "favorite": false
   },
   {
-    "id": "2",
     "name": "Chaim Lewis",
     "email": "dui.in@egetlacus.ca",
-    "phone": "(294) 840-6685"
+    "phone": "(294) 840-6685",
+    "favorite": true
   },
   {
-    "id": "4",
+    "name": "Kennedy Lane",
+    "email": "mattis.Cras@nonenimMauris.net",
+    "phone": "(542) 451-7038",
+    "favorite": false
+  },
+  {
     "name": "Wylie Pope",
     "email": "est@utquamvel.net",
-    "phone": "(692) 802-2949"
+    "phone": "(692) 802-2949",
+    "favorite": true
   },
   {
-    "id": "5",
     "name": "Cyrus Jackson",
     "email": "nibh@semsempererat.com",
-    "phone": "(501) 472-5218"
+    "phone": "(501) 472-5218",
+    "favorite": true
   },
   {
-    "id": "6",
     "name": "Abbot Franks",
     "email": "scelerisque@magnis.org",
-    "phone": "(186) 568-3720"
+    "phone": "(186) 568-3720",
+    "favorite": true
   },
   {
-    "id": "7",
     "name": "Reuben Henry",
     "email": "pharetra.ut@dictum.co.uk",
-    "phone": "(715) 598-5792"
+    "phone": "(715) 598-5792",
+    "favorite": true
   },
   {
-    "id": "8",
     "name": "Simon Morton",
     "email": "dui.Fusce.diam@Donec.com",
-    "phone": "(233) 738-2360"
+    "phone": "(233) 738-2360",
+    "favorite": true
   },
   {
-    "id": "29639df2-038f-47a2-ab6b-eaa67769a8c3",
-    "name": "Aleks Nord",
-    "email": "Donec.elementums@celerisque.net",
-    "phone": "(748) 206-2688"
+    "name": "Thomas Lucas",
+    "email": "nec@Nulla.com",
+    "phone": "(704) 398-7993",
+    "favorite": false
   },
   {
-    "id": "13005f3e-2359-4b61-b5cb-93d0e582e4a7",
-    "name": "Aleks Word",
-    "email": "Wonec.element@celeris.com",
-    "phone": "(542) 341-1111"
-  },
-  {
-    "id": "510b330a-c57e-4f4a-ae4d-c8ebdc45396d",
-    "name": "Arnold Shwarts",
-    "email": "AS.element@celeris.org",
-    "phone": "38130589725"
-  },
-  {
-    "id": "686b867f-408e-46f1-951d-4fb78c87235a",
-    "name": "Gerd Shwarts",
-    "email": "Gelement@celerist.org",
-    "phone": "259 1593214"
+    "name": "Alec Howard",
+    "email": "Donec.elementum@scelerisquescelerisquedui.net",
+    "phone": "(748) 206-2688",
+    "favorite": true
   }
 ]
